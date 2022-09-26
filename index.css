@@ -1,0 +1,93 @@
+
+      
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: teal;
+  }
+  #calculator
+  {
+    height: 400px;
+    width: 350px;
+     border: 1px solid;  
+    margin: auto;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;; */
+  }
+  #input{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+     /* border: 1px solid green;    */
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+ 
+  #keyboard
+  {
+    height: 70%;
+    width: 85%;
+    /* border:  1px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    
+    
+    
+  }
+  #keyboard>div{
+    height: 50px;
+    width: 55px;
+    /* border: 1px solid; */
+    display: block;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;
+     border-radius: 50%;
+     font-weight:bolder;
+     font-size: 25px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     
+  }
+  #keyboard>div:nth-child(4)
+  {
+    background-color: black;
+    color: white;
+  }
+  #keyboard>div:nth-child(8)
+  {
+    background-color: black;
+    color: white;
+  }
+  #keyboard>div:nth-child(12)
+  {
+    background-color: black;
+    color: white;
+  }
+  #keyboard>div:nth-child(16)
+  {
+    background-color: black;
+    color: white;
+  }
+  #keyboard>div:nth-child(15)
+  {
+    background-color: black;
+    color: white;
+  }
+  #keyboard>div:nth-child(13)
+  {
+    background-color: red;
+    color: white;
+  }
+
+
+  
